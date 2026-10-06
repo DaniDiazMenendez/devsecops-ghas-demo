@@ -30,7 +30,6 @@ flowchart LR
 | SAST | `.github/workflows/codeql.yml` | CodeQL con queries `security-extended` y `security-and-quality` |
 | Dependencias | `.github/workflows/dependency-review.yml` | Bloquea PRs con dependencias vulnerables |
 | Dependabot | `.github/dependabot.yml` | PRs automaticos para npm, Docker y GitHub Actions |
-| Supply chain | `.github/workflows/scorecard.yml` | OpenSSF Scorecard para postura del repo |
 | Gobierno | `SECURITY.md`, `CODEOWNERS`, PR template | Politicas de reporte, ownership y checklist |
 
 ## Como ejecutar localmente
@@ -69,7 +68,6 @@ curl.exe -H "x-demo-user: demo-user" http://localhost:3000/api/accounts/1001
    - `ci`.
    - `CodeQL`.
    - `Dependency Review`.
-   - `Scorecard`.
 5. Abrir la pestana **Security** y explicar:
    - **Code scanning**: vulnerabilidades en codigo.
    - **Dependabot**: vulnerabilidades en librerias.
@@ -83,4 +81,3 @@ curl.exe -H "x-demo-user: demo-user" http://localhost:3000/api/accounts/1001
 ## Guion recomendado
 
 Usa `docs/guion-demo.md` para la lectura paso a paso.
-

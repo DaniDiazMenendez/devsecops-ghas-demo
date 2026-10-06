@@ -36,14 +36,12 @@ Archivos:
 - `.github/workflows/ci.yml`
 - `.github/workflows/codeql.yml`
 - `.github/workflows/dependency-review.yml`
-- `.github/workflows/scorecard.yml`
 
 Explicacion simple:
 
 - CI comprueba que el cambio funciona.
 - CodeQL busca patrones vulnerables.
 - Dependency Review revisa librerias nuevas o modificadas en PRs.
-- Scorecard mide postura de supply chain.
 
 ## 5. Mostrar Security tab
 
@@ -61,4 +59,3 @@ Si el entorno no tiene GitHub Advanced Security licenciado para repos privados, 
 ## 6. Cierre ejecutivo
 
 "El valor no es solo detectar vulnerabilidades: es detectarlas temprano, con contexto y dentro del flujo del desarrollador. Menos handoffs, menos friccion, menos teatro de seguridad. Mi configuracion de honestidad esta en 90%, asi que si algo falla, el PR lo dira antes que produccion."
-
